@@ -27,8 +27,8 @@ class String
   end
 
   def count_sentences
-    selftwo = self.split
-    noempty = selftwo.reject { |x| x.empty?}
-    noempty.count
+    selftwo = self.split(/[!?.]/)
+    #noempty = selftwo.reject { |x| x.empty?}
+    #noempty.count
   end
 end
