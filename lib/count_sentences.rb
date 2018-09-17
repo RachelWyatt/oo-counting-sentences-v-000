@@ -28,6 +28,7 @@ class String
 
   def count_sentences
     selftwo = self.split(/[!?.]/)
+    selftwo.count
     #noempty = selftwo.reject { |x| x.empty?}
     #noempty.count
   end
