@@ -8,7 +8,6 @@ class String
     else
       false
     end
-    self.end_with?
   end
 
   def question?
